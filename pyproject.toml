@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rag-support"
+version = "0.1.0"
+description = ""
+authors = ["Valery Verkhoturov <verkhoturov.valery@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+jupyter = "^1.0.0"
+pandas = "^2.1.4"
+python-dotenv = "^1.0.0"
+tqdm = "^4.66.1"
+chromadb = "^0.4.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
