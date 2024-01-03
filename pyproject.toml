@@ -13,6 +13,7 @@ pandas = "^2.1.4"
 python-dotenv = "^1.0.0"
 tqdm = "^4.66.1"
 chromadb = "^0.4.21"
+openai = "^1.6.1"
 
 
 [build-system]
