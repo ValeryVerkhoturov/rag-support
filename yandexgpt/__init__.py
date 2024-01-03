@@ -16,10 +16,10 @@ class YandexGpt:
         }
 
 
-def retry_yandex_gpt_factory(reties=2):
+def retry_yandex_gpt_factory(retries=2):
     def retry_yandex_gpt(func):
         def wrapper_retry_yandex_gpt(*args, **kwargs):
-            for retry in range(reties):
+            for retry in range(retries):
                 res = func(*args, **kwargs)
                 if (res.status_code) == 200:
                     return res.json()
